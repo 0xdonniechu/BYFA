@@ -1,0 +1,8 @@
+# Nothing the learner writes in my-agent/ goes to git, except its README.
+# The brief, runs and test cases hold real work details.
+my-agent/*
+!my-agent/README.md
+.env
+.env.*
+*.local
+.DS_Store
